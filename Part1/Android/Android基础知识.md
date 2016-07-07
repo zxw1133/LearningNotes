@@ -309,22 +309,33 @@ Android为此数据库提供了一个名为SQLiteDatabase的类，封装了一�
 在Applicatio中定义一个static常量，赋值为－1，在欢迎界面改为0，如果被强杀，application重新初始化，在父类Activity判断该常量的值。
 
 **应用被强杀如何解决**
+http://www.cnblogs.com/stay/p/5177298.html
 
 如果在每一个Activity的onCreate里判断是否被强杀，冗余了，封装到Activity的父类中，如果被强杀，跳转回主界面，如果没有被强杀，执行Activity的初始化操作，给主界面传递intent参数，主界面会调用onNewIntent方法，在onNewIntent跳转到欢迎页面，重新来一遍流程。
 
 **Json有什么优劣势。**
+http://blog.csdn.net/liaomin416100569/article/details/5480825
 
 **怎样退出终止App**
+http://blog.csdn.net/rabbit_in_android/article/details/50772811
 
 **Asset目录与res目录的区别。**
+http://blog.csdn.net/jaycee110905/article/details/42641053
+http://blog.csdn.net/abc5382334/article/details/16813487
 
 **Android怎么加速启动Activity。**
+
+http://www.codeceo.com/article/android-start-fast.html
+http://blog.csdn.net/rev_fycd/article/details/9993133
 
 **Android内存优化方法：ListView优化，及时关闭资源，图片缓存等等。**
 
 **Android中弱引用与软引用的应用场景。**
+http://blog.csdn.net/arui319/article/details/8489451
 
 **Bitmap的四种属性，与每种属性队形的大小。**
+http://www.android100.org/html/201506/30/160242.html
+http://blog.csdn.net/Repeaterbin/article/details/3979272
 
 
 **View与View Group分类。自定义View过程：onMeasure()、onLayout()、onDraw()。**
@@ -346,6 +357,8 @@ Android为此数据库提供了一个名为SQLiteDatabase的类，封装了一�
 
 
 **Android长连接，怎么处理心跳机制。**
+http://blog.csdn.net/clh604/article/details/20167263
+http://m.blog.csdn.net/article/details?id=50119809
 
 ---
 
